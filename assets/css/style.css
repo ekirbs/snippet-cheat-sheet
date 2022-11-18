@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+
+
+
+
+
+nav a:hover {
+    color: white
+}
+
+main {
+    display: flew;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+}
+
+article {
+    border-bottom: 1px solid black;
+}
+
+article p {
+    margin: 2% 0;
+    font-size: 110%;
+}
+
+article ul {
+    margin-left: 50%;
+    font-size: 110%;
+    list-style: circle;
+}
+
+arcticle ul li:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+article ul + p {
+    background-color: black;
+    color: white;
+}
